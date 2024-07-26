@@ -2,8 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS') src=1>"></form>
-
+    <math><mtext><table><mglyph><textarea><math href=javascript:alert(1)>CLICKME</math>
   version: production
 basePath: /JSSResource/
 produces:
