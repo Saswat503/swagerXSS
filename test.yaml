@@ -1,7 +1,9 @@
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: '<script>alert("XSS")</script>'
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS') src=1>"></form>
+
   version: production
 basePath: /JSSResource/
 produces:
@@ -25,7 +27,9 @@ paths:
   '/accounts/groupid/{id}':
     delete:
       parameters:
-        - description: '<script>alert("XSS")</script>'
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS') src=1>"></form>
+
           format: int64
           in: path
           name: id
